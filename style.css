@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    width: 100%;
+
+background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url("./images/Banner\ Image.png");
+    height:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+
+}
+.banner-title{
+    align-items: center;
+}
+.banner-title h3{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 200px;
+    
+}
+.banner-title h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 95px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+   
+}
+.main{
+    width: 100%;
+    background-color:#FB4668;
+ 
+  
+}
+.category-content{
+    margin: auto;
+    align-items: center;
+    padding:45px 0px;
+    margin: auto;
+}
+.category-content h1{
+    font-size: 88px;
+    text-align: center;
+    font-weight: 800;
+    color: #FF0000;
+   
+}
+.category-content p{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 45px;
+    color: #FF0000;
+    
+}
+.category-content h3{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+    color: #000000;
+    
+
+}
+.newyear{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+    margin:auto;
+}
