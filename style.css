@@ -353,3 +353,69 @@ body{
     margin-bottom: 20px;
 }
 /**card-section end**/
+/**section mail-section start code**/
+.main-section{
+    padding: 45px 0px;
+    align-items: center;
+}
+.maiil-content{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.mail-photo{
+    display:flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.maiil-content h3{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 25px 0px;
+    color: #070211;
+    font-weight: bold;
+}
+.maiil-content p{
+    width: 896px;
+    font-size: 20px;
+    color: #070211;
+    text-align: center;
+    padding-bottom:25px ;
+    margin: auto;
+}
+.form-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.maiil-content form{
+   
+    padding: 25px 0px 75px 0px;
+}
+.maiil-content  form input{
+    width: 450px;
+    height: 72px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    color: #070211;
+    border-radius: 15px;
+    border: 0;
+}
+.maiil-content form button{
+    width: 210px;
+    height: 72px;
+    border: 0;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 0;
+}
+
+/** section mail-section end***/
+.footer{
+    /*background-color: #070211;*/
+}
