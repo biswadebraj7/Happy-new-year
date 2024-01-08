@@ -44,7 +44,7 @@ body{
 }
 .main{
     width: 100%;
-   background-color:#ffe5e5;
+   /*background-color:#ffe5e5;*/
 
  
   
@@ -390,13 +390,15 @@ body{
 /**card-section end**/
 /**section mail-section start code**/
 .main-section{
-    padding: 45px 0px;
+    
     align-items: center;
+    margin-top: 45px 0px;
 }
 .maiil-content{
     display: block;
     align-items: center;
     justify-content: center;
+    background-color: #ffe5e5;
 }
 .mail-photo{
     display:flex;
@@ -433,7 +435,8 @@ body{
     width: 450px;
     height: 72px;
     margin: auto;
-    text-align: center;
+    text-align: left;
+    padding-left: 15px;
     font-size: 20px;
     color: #070211;
     border-radius: 15px;
@@ -453,7 +456,8 @@ body{
 /** section mail-section end***/
 .footer{
     background-color: #070211;
-    padding:100px 0px
+    padding:100px 0px;
+    margin-top: 75px;
 }
 .footer-content{
     display: flex;
