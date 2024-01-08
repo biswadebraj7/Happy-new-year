@@ -7,10 +7,14 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
 }
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+}
 .header{
     width: 100%;
-
-background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url("./images/Banner\ Image.png");
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url("./images/Banner\ Image.png");
     height:600px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,7 +44,8 @@ background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url("./images
 }
 .main{
     width: 100%;
-    background-color:#FB4668;
+    background-color:#ffe5e5;
+
  
   
 }
@@ -80,4 +85,114 @@ background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url("./images
     width: 800px;
     height: 500px;
     margin:auto;
+}
+/**midnight-selection**/
+.midnight-selection{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url("./images/Vectorrr.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ .mid-content {
+    padding-top: 100px;
+    padding-left: 125px;
+ }
+ .mid-content h1{
+    font-size: 64px;
+    font-weight: 800px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 95px;
+ }
+ .mid-content p{
+    width: 697px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 36px;
+    padding-bottom: 30px;
+ }
+ .mid-content a{
+ 
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+
+ }
+/**midnight-selection**/
+/**park-selection**/
+.park-section{
+    padding: 100px 0px;
+    margin: auto;
+}
+.park-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+   padding: 100px 0px;
+}
+.park-content p{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000000;
+
+}
+.park-content span{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FF0000;
+
+}
+.park-content button{
+    display: flex;
+    justify-content: center;
+    width: 167px;
+    height: 56px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    align-items: center;
+    margin: 10px auto;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+/**Offer section**/
+
+.offer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer-1 p{
+    width: 393px;
+    font-size: 20px;
+
+}
+.offer-2 {
+
+}
+.Ellipse{
+    width: 364px;
+    height: 364px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.offer-3{
+
+}
+.group70{
+    width: 140px;
+    height: 140px;
+
 }
