@@ -424,6 +424,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 30px;
 }
 .footer-left p{
     color: #FFFFFF;
@@ -456,4 +457,33 @@ body{
     color: #FFFFFF;
     padding-left: 15px;
     text-decoration: none;
+}
+.icon-section{
+    padding: 45px 0px;
+}
+.icon-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-section ul li{
+    margin: 0px 10px;
+}
+.icon-section ul li img{
+    width: 64px;
+    height: 64px;
+}
+hr{
+    background: #FF0000;
+}
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.copy-right small{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
 }
