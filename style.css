@@ -222,10 +222,57 @@ body{
     width: 276px;
     font-size: 20px;
     color: #070211;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 .group70{
     width: 140px;
     height: 140px;
 
+}
+/**holiday-section**/
+.holiday-section{
+    padding: 100px 0px;
+    align-items: center;
+}
+.holiday-content{
+    align-items: center;
+    margin: auto;
+}
+.holiday-content span{
+   display: block;
+    color: #070211;
+    font-size:24px;
+    font-weight: 400;
+    text-align: center;
+ 
+
+}
+.holiday-content h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 72px;
+    color: #FF0000;
+    font-weight: bold;
+    padding-top: 15px;
+
+}
+.holiday-content  h1 .span{
+    text-align: center;
+    font-size: 72px;
+    color: #070211;
+    font-weight: bold;
+
+}
+.holiday-content p{
+    width: 1068px;
+    margin:0px auto;
+    text-align: center;
+    color: #070211;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding: 0px 100px;
+    line-height: 36px;
+    
 }
