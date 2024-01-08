@@ -172,10 +172,26 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 100px 0px;
+}
+.offer-1 span{
+    font-size: 24px;
+    font-weight: 400px;
+    color: #FF0000;
+    text-align: left;
+}
+.offer-1 h3{
+    font-size: 48px;
+    font-weight: 800px;
+    color: #000000;
+    padding: 10px 0px;
+    text-align: left;
 }
 .offer-1 p{
     width: 393px;
     font-size: 20px;
+    color: #070211;
+    text-align: left;
 
 }
 .offer-2 {
@@ -186,10 +202,27 @@ body{
     height: 364px;
     margin: auto;
     border-radius: 50%;
+    border: 10px solid #FF0000;
+    padding: 15px;
 }
 
 .offer-3{
+    padding-right: 0;
 
+}
+.offer-3 h3{
+    font-size: 48px;
+    text-align: left;
+    font-weight: bold;
+    color: #FF0000;
+    padding-bottom: 15px;
+
+}
+.offer-3 p{
+    width: 276px;
+    font-size: 20px;
+    color: #070211;
+    padding-bottom: 25px;
 }
 .group70{
     width: 140px;
