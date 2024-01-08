@@ -44,7 +44,7 @@ body{
 }
 .main{
     width: 100%;
-    background-color:#ffe5e5;
+   background-color:#ffe5e5;
 
  
   
@@ -75,7 +75,7 @@ body{
     font-weight: 700;
     text-align: center;
     padding-top: 25px;
-    color: #000000;
+    color: #070211;
     
 
 }
@@ -141,7 +141,7 @@ body{
     font-size: 32px;
     font-weight: 600;
     line-height: 36px;
-    color: #000000;
+    color: #070211;
 
 }
 .park-content span{
@@ -183,7 +183,7 @@ body{
 .offer-1 h3{
     font-size: 48px;
     font-weight: 800px;
-    color: #000000;
+    color: #070211;
     padding: 10px 0px;
     text-align: left;
 }
@@ -237,6 +237,7 @@ body{
     background-repeat: no-repeat;
     background-position: bottom center;*/
     
+    
 }
 .holiday-content{
     align-items: center;
@@ -284,31 +285,65 @@ body{
 
 }
 .holiday-box{
+
+    margin-top: 45px;
+    position: relative;
+  
+   
+}
+.holibox{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top:20px ;
+
 }
 .holiday-boxleft{
+    position: relative;
     
 }
 .holiday-boxleft img{
+    position: absolute;
+    left: 0;
+    top: -125px;
     width: 674px;
     height: 577px;
-    
+ 
+   
 }
 .holidaybox-right{
-  
-
-}
-.holidaybox-right img{
-    width: 429px;
-    height: 433px;
+    position: relative;
+    padding: 0;
+    margin: 0;
     
 
 }
-.Rectangle{
-    width: 100%;
+.holidaybox-right img{   
+    width: 429px;
+    height: 440px;
+    margin-top:55px ;
+   
+    
+    
+
+}
+.discount-photo{
+    position: absolute;
+    width:220px ;
+    height: 200px;
+    border-radius: 50%;
+    left: -50%;
+    
+}
+.backcolor{
+    padding: 0;
+    margin: 0;
     height: 229px;
+    background-color: #FF0000;
+    border-radius: 10px;
+    z-index: 100;
+   
 }
 /**card-section start**/
 .card-section{
