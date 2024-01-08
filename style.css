@@ -417,5 +417,43 @@ body{
 
 /** section mail-section end***/
 .footer{
-    /*background-color: #070211;*/
+    background-color: #070211;
+    padding:100px 0px
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 36px;
+
+}
+.footer-first-list{
+    display: block;
+    align-items: center;
+    margin-right: 200px;
+
+}
+.footer-first-list li{
+    list-style: none;
+    margin-top: 5px;
+ 
+
+}
+.footer-first-list li img{
+    margin-top: 5px;
+    width: 24px;
+    height: 24px;
+   
+}
+.footer-first-list li a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 15px;
+    text-decoration: none;
 }
