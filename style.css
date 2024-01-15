@@ -322,11 +322,11 @@ body{
 .holidaybox-right img{   
     width: 429px;
     height: 440px;
-    margin-top:55px ;
+    margin-bottom: -4px;
+    padding: 0;
+   
    
     
-    
-
 }
 .discount-photo{
     position: absolute;
